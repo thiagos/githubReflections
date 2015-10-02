@@ -1,0 +1,8 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+Git creates all the metadata needed to handle the versioning functionality.
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's just a way to separate what is going into the next commit while still working on it. It allows us to make sure just what we need is going into the next commit.
+
