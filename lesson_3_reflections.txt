@@ -25,14 +25,23 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    That is necessary for merging conflicting versions of your local changes 
+    and eventual collaborator's changes that were already pushed earlier into
+    github repository. Comparing with your last known state will be part of 
+    this merge process.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Would be a lot harder, as it's a process involving many steps, and doing it
+    without a tool designed for it would probably lead to many errors. We would 
+    need to send code, compare, agree or disagree, etc, probably via emails, 
+    without versioning.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Even with the extra steps for multiple contributor's branches merging, 
+    creating branches is still necessary if a new feature is being implemented
+    while a main functional version always needs to exist and needs to be fully
+    working.
